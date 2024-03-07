@@ -1,0 +1,15 @@
+python3 -m virtualenv venv
+source ./venv/bin/activate
+pip install -r requirements.txt
+django-admin startproject linking .
+python manage.py startapp linking_api
+python manage.py startapp linking_api
+
+Run server -->  python manage.py runserver
+
+Migrations -->
+
+python manage.py makemigrations
+
+python manage.py migrate
+
